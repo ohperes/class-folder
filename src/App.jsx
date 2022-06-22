@@ -1,11 +1,10 @@
-import './global.css'
-import { Login } from './pages/Login.jsx';
+import './styles/global.css'
+import Login from './pages/SingIn/Login';
 
-function App() {
+export function App() {
 
   return (
    <Login />
   );
 }
 
-export default App
