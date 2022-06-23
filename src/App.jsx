@@ -1,10 +1,10 @@
 import './styles/global.css'
-import Login from './pages/SingIn/Login';
+import { Router } from './Router.jsx';
 
 export function App() {
 
   return (
-   <Login />
+    <Router />
   );
 }
 

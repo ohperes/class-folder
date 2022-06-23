@@ -1,5 +1,5 @@
 
-import { SingUp } from '../SingUp/SingUp';
+import { Link } from 'react-router-dom';
 import styles from './Login.module.css';
 
 export function Login() {
@@ -16,8 +16,7 @@ export function Login() {
 
             <button type="submit">Login</button>
         </div>
-        <SingUp className={styles.signUp}> Novo por aqui? Cadastre-se!</SingUp>
+        <span>Novo por aqui?<Link to="/Registration">Cadastre-se!</Link></span>
    </div>
   );
 }
-

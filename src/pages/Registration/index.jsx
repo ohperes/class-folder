@@ -1,7 +1,7 @@
 
-import styles from '../SingIn/Login.module.css'
+import styles from './Registration.module.css'
 
-export function SingUp() {
+export function Registration() {
 
   return (
    <div className={styles.content}>
