@@ -11,12 +11,12 @@ export function Login() {
             <h1 className={styles.title}>Class Folder</h1>
             <p className={styles.subtitle}>Mantenha seus registros de aulas!</p>
             
-            <div className={styles.form}>
+            <form className={styles.form}>
                 <input type="text" placeholder='Usuário'/>
                 <input type="password" placeholder='Senha'/>
 
                 <button type="submit">Login</button>
-            </div>
+            </form>
             <span>Novo por aqui?<Link to="/Registration">Cadastre-se!</Link></span>
       </div>
    </div>
