@@ -23,7 +23,7 @@ function Profile() {
           </div>
         </div>
       </main>
-    </div>
+    </div> 
   );
 }
 
